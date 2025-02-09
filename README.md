@@ -107,12 +107,5 @@ Edit
    git commit -m "Added project README"
    git push
 origin main
-
-
-
-
 Check your GitHub repository—your README should be visible! 🎉
-![Screenshot 2025-02-09 224707](https://github.com/user-attachments/assets/a30bbcee-6860-4027-bf92-8846ee9f9805)
-![Screenshot 2025-02-09 224957](https://github.com/user-attachments/assets/8f17ef3a-a9f5-47d2-a0e0-61f5dbd41ae8)
-![Screenshot 2025-02-09 231034](https://github.com/user-attachments/assets/0f925040-8929-4270-924c-5090d76b6847)
-![Screenshot 2025-02-09 231206](https://github.com/user-attachments/assets/1a699224-6614-4b11-8be9-ffb4173a7b5c)
+
