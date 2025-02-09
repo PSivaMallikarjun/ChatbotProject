@@ -1,0 +1,11 @@
+intent,question,answer
+table_structure,Determine the Structure of DEPT Table and its Contents.,create table DEPT as select * from scott.DEPT; describe DEPT; select * from DEPT;
+table_structure,Determine the Structure of EMP Table and its Contents.,create table EMP as select * from scott.EMP; describe EMP; select * from EMP;
+employee_details,Display the Ename and Deptno from Emp table whose Empno is 7788.,"select Ename, Deptno from EMP Where EMPNO = 7788;"
+salary_sorting,"Display the Ename, Sal, Comm from Emp table who earn commission and sort the records in descending order.","select Ename, Sal, Comm from EMP where comm !=0 order by 2 desc, 3 desc;"
+unique_jobs,Display all unique job codes from the EMP table.,select distinct job from EMP;
+column_alias,"Name the column headings Emp #, Employee, Job, and Hire Date.","select EMPNO as 'Emp #',ENAME as 'Employee', JOB as 'Job', HIREDATE as 'HireDate' from EMP;"
+concatenation,Display the name concatenated with the job ID.,"select ename || ',' || job as 'Employee and Title' from emp;"
+specific_employee,"Display the ename, job, and hiredate for the employees SCOTT or TURNER.","select ENAME, JOB, HIREDATE from EMP where ENAME in ('SCOTT','TURNER') order by sal asc;"
+department_filter,Display the ename and department number of all employees in departments 20 or 30.,"select ename, DEPTNO from EMP where DEPTNO in (20,30) order by ename asc;"
+salary_range,Display the last name and salary of employees earning between 2000 and 3000 in department 20 or 30.,"select ename as 'Employee', Sal as 'Monthly Salary' from Emp where Sal between 2000 and 3000 and Deptno in (20, 30);"
